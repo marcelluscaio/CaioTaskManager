@@ -1,0 +1,40 @@
+.login-toggle{
+   display: block;
+
+   margin-inline: auto;
+   margin-bottom: 1em;
+}
+
+.form-container{
+   display: flex;
+
+   width: 50vw;
+   height: 50vh;
+   margin-inline: auto;
+
+   overflow-x: hidden;
+}
+
+.form{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   flex-shrink: 0;
+   width: 100%;
+
+   background-color: rgb(256 256 256 / .5);
+
+   transition: transform 1s ease-in-out;
+}
+
+.sign-up .form{
+   transform: translateX(-100%);
+}
+
+.form label{
+   margin-right: .5em;
+   
+   font-size: 1.125rem;
+}
